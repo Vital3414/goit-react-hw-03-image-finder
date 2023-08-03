@@ -27,7 +27,7 @@ export default class Modal extends React.Component {
     const { image } = this.props;
 
     return (
-      <div className={css.Overlay} onClick={this.handleOverlayClick}>
+      <div className={css.modalOverlay} onClick={this.handleOverlayClick}>
         <div className={css.Modal}>
           <img src={image} alt="" />
         </div>
