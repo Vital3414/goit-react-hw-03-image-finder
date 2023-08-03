@@ -11,7 +11,7 @@ export default function ImageGalleryItem({ images, hendleModal }) {
                 className={css.ImageGalleryItemImage}
                 src={image.webformatURL}
                 alt={image.user}
-                onDoubleClick={() => hendleModal(image)}
+                onClick={() => hendleModal(image)}
               />
             </li>
           );
