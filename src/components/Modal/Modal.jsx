@@ -23,11 +23,15 @@ export default class Modal extends React.Component {
     }
   };
 
+  handleImageClick = event => {
+    event.stopPropagation();
+  };
+
   render() {
     const { image } = this.props;
 
     return (
-      <div className={css.modalOverlay} onClick={this.handleOverlayClick}>
+      <div className={css.Overlay} onClick={this.handleOverlayClick}>
         <div className={css.Modal}>
           <img src={image} alt="" />
         </div>

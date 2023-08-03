@@ -3,7 +3,7 @@ import Serchbar from './Searchbar/Searchbar';
 import ImageGallery from './ImageGallery/ImageGallery';
 import ImageGalleryItem from './ImageGalleryItem/ImageGalleryItem';
 import css from './styles.module.css';
-import Modal from 'components/Modal/Modal';
+import Modal from './Modal/Modal';
 import { Oval } from 'react-loader-spinner';
 import LoadMore from 'components/Button/Button';
 import { getImages } from './APIService/APIService';
